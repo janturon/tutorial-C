@@ -1,3 +1,4 @@
 tutorial-C
 ==========
-First steps in C primarily for my students at Technical High School Písek.
+- 01: elementary string-to-int, int-to-string conversion
+- 02: string to two ints, string to array of int digits, tokenize string
