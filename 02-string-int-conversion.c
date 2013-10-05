@@ -19,7 +19,7 @@ int main() {
   
   // comma separated string to array of strings
   char plumcake[] = "1c of sugar, 1c of milk, 2c of flour, two eggs, 0.5c of oil, yeast, plums";
-  char item[32][32];
+  char item[32][7]; // 7 strings 32 chars long
   int i = 0;
   char *p; // or char* p // or char * p
   for(p=strtok(plumcake,","); p!=NULL; p=strtok(NULL,",")) strcpy(item[i++], p);
