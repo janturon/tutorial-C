@@ -38,13 +38,6 @@ int main() {
   tm* nextMonth = localtime(&nextMonthStamp);
   printf("1.%d. je %s\n", nextMonth->tm_mon+1, wdays[nextMonth->tm_wday]);
   
-  tm next = *now;
-//  tm* n = &next;
-  tm n;
-  memcpy(&n, now, sizeof(tm));
-  n.tm_mon++;
-  printf("%d %d", n.tm_mon, now->tm_mon); 
-  
   getchar();
   return 0;
 }
